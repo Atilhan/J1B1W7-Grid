@@ -1,0 +1,7 @@
+Mijn Website Bestaat uit 3 rijen colums ( 3 staan naast elkaar )
+En ze staan ook 3 onderelkaar uitgebreid.
+
+Grid-Item ( Geeft Hoogte & Breedte aan van de collum )
+
+Grid-Container ( Geeft de breedde aan van de website of tewel de Width van de webste)
+ 
