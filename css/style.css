@@ -8,7 +8,7 @@ body{
   font-size:14px;
   margin:  0 auto;
   display: grid;
-  grid-template-columns: auto auto auto auto   ;
+  grid-template-columns: auto auto auto;
   grid-gap: 5px;
   width: 1160px;
   background-color: white;
@@ -42,16 +42,6 @@ body{
   padding-right: 50px;
 }
 
-
-
-.grid-item {
-  list-style: none;
-  background-color: white;
-  font-size:14px;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
 
 .logo{
   float:left;
@@ -101,8 +91,7 @@ a{
   font-size: 13px;
   color: white;
   background-image: url(../img/banner_bg.png);
-  grid-column: 1 / span 4;
-  grid-row: 2 / span 4;
+  grid-column: 1 / span 3;
 }
 
 .navbar{
@@ -110,41 +99,16 @@ a{
   padding:7px;
   background-image: url(../img/header_bg.png);
   background-color: white;
-  grid-column: 1 / span 4;
+  grid-column: 1 / span 3;
   grid-row: 1;
 }
 
-.main1{
-  text-align: left;
-  width: 305px;
-  font-position:center;
-  font-size:14px;
-  grid-column: 1;
-  grid-row: 6;
-}
-
-.main2{
-  text-align: left;
-  width: 305px;
-  font-size:14px;
-  grid-column: 2;
-  grid-row: 6;
-}
-
-.main3{
-  text-align: left;
-  width: 305px;
-  font-size:14px;
-  grid-column: 3;
-  grid-row: 6;
-}
 
 .footer {
 
   background-image: url(../img/footer_bg.png);
   font-size:14px;
   color: white;
-  grid-column: 1 / span 4;
-  grid-row: 7;
+  grid-column: 1 / span 3;
   text-align: center;
 }
